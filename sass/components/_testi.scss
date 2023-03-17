@@ -1,0 +1,66 @@
+#testi{
+    padding-top: 66px;
+}
+.testi_heading{
+    text-transform: capitalize;
+    padding-bottom: 60px;
+    h4{
+        font-size: 40px;
+        text-align: center;
+    }
+    img{
+        padding-left: 81px;
+    }
+}
+.testi_sec{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.800), rgba(0, 0, 0, 0.800))
+    ,url(../images/testi_bg.jpg) no-repeat center / cover;
+    padding-top: 66px;
+}
+.testi_tbl{
+    display: flex;
+    width: 570px;
+    img{
+        height: 150px;
+    }
+    .testi_txt{
+        color: white;
+    }
+}
+.testi_txt {
+    padding-left: 30px;
+    h4{
+        font-size: 20px;
+        padding-bottom: 4px;
+    }
+    h6{
+        font-size: 16px;
+    }
+    p{
+        font-size: 14px;
+        padding-top: 30px;
+    }
+    span{
+        display: block;
+        text-align: end;
+        padding-top: 28px;
+    }
+}
+.testi_bttn{
+    color: white;
+    font-size: 24px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    i{
+        border: 1px solid white;
+        height: 38px;
+        width: 38px;
+        line-height: 35px;
+        transition: 0.5s;
+        margin: 0px 2px;
+        &:hover{
+            background-color: #de4644;
+            border: 1px solid transparent;
+        }
+    }
+}

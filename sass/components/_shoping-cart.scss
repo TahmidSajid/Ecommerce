@@ -1,0 +1,124 @@
+.shoping_main{
+    padding-top: 100px;
+    padding-bottom: 85px;
+}
+.cart_tbl{
+    th{
+        font-size: 20px;
+        text-transform: capitalize;
+    }
+}
+.pdct_detail{
+    width: 318px !important;
+    border-right: 0px solid transparent;
+    h5{
+        font-size: 16px;
+        padding-top: 20px;
+        padding-bottom: 4px;
+    }
+    i{
+        color: #de4644;
+    }
+    p{
+        font-size: 14px;
+    }
+    img{
+        padding: 20px 0px;
+        padding-right: 10px;
+    }
+}
+.t-head{
+    width: 318px;
+}
+.cart_element{
+    text-align: center;
+    line-height: 100px;
+    font-size: 16px;
+    position: relative;
+    i{
+        font-size: 24px;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+        &:hover{
+            color: #de4644;
+        }
+    }
+    button{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+}
+.cupon{
+    padding-bottom: 45px;
+    h6{
+        font-size: 20px;
+        text-transform: capitalize;
+        padding-bottom: 8px;
+    }
+    form{
+        width: 275px;
+        padding-bottom: 14px;
+        input{
+            padding-top: 4px;
+            padding-bottom: 4px;
+            background-color: transparent;
+            width: 195px;
+            border: 1px solid rgba(189, 188, 188, 0.755);
+            &::placeholder{
+                padding-left: 10px !important;
+                font-size: 14px;
+            }
+        }
+        button{
+            width: 74px;
+            height: 36px;
+            border: 0px;
+            color: white;
+            background-color: #de4644;
+            text-transform: capitalize;
+        }
+    }
+}
+.cart_sec_tbl{
+    h6{
+        font-size: 20px;
+        text-transform: capitalize;
+    }
+    td{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 270px;
+        text-transform: capitalize;
+    }
+}
+.t_last{
+    border-top: 1px solid #de4644 !important;
+}
+.cart_bttn{
+    width: 270px;
+    padding-top: 15px;
+    a{
+        font-size: 16px;
+        color: black;
+        text-transform: capitalize;
+        border: 1px solid black;
+        width: 127px;
+        height: 45px;
+        display: inline-block;
+        line-height: 40px;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+        &:hover{
+            color: white;
+            background-color: #de4644;
+            border: 1px solid transparent;
+        }
+}
+}

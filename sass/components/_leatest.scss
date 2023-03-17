@@ -1,0 +1,109 @@
+#leatest{
+    padding: 100px 0px;
+}
+.leatest_heading{
+    text-transform: capitalize;
+    padding-bottom: 60px;
+    h4{
+        font-size: 40px;
+        text-align: center;
+    }
+    img{
+        padding-left: 39px;
+    }
+}
+.leatest_sec{
+    position: relative;
+    .prev_leat{
+        position: absolute;
+        right: 51%;
+        bottom: -78px;
+        font-size: 24px;
+        border: 1px solid black;
+        height: 40px;
+        width: 40px;
+        transition: 0.5s;
+        transform: translate(-50% ,0);
+        &:hover{
+            background-color: #de4644;
+            color: white;
+            border: 1px solid transparent;
+        }
+    }
+    .next_leat{
+        position: absolute;
+        left: 51%;
+        bottom: -78px;
+        font-size: 24px;
+        border: 1px solid black;
+        height: 40px;
+        width: 40px;
+        transition: 0.5s;
+        transform: translate(-50% ,0);
+        &:hover{
+            background-color: #de4644;
+            color: white;
+            border: 1px solid transparent;
+        }
+    }
+}
+.leatest_tbl{
+    position: relative;
+    width: 270px !important;
+    &:hover .leatest_overlay{
+        opacity: 1;
+        width: 100px;
+    }
+    h6{
+        display: flex;
+    }
+    i{
+        color: #de4644;
+    }
+}
+.leatest_overlay {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform: translate(0 , -12%);
+    width: 0;
+    height: 355px;
+    opacity: 0;
+    transition: 0.5s;
+    background-color: rgba(0, 0, 0, 0.533);
+    -webkit-transform: translate(0 , -12%);
+    -moz-transform: translate(0 , -12%);
+    -ms-transform: translate(0 , -12%);
+    -o-transform: translate(0 , -12%);
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.leatest_link{
+    padding-top: 70px;
+    li{
+        display: block;
+        margin-bottom: 30px;
+    }
+    i{
+        font-size: 26px;
+        padding: 11px;
+        color: white;
+        border: 1px solid white;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+        &:hover{
+            background-color: #de4644;
+            border: 1px solid transparent;
+        }
+    }
+}

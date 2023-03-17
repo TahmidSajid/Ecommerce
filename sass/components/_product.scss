@@ -1,0 +1,204 @@
+#product_detail{
+    padding-top: 100px;
+}
+.small_images{
+    padding-top: 10px;
+}
+.product_txt{
+    h5{
+        font-size: 20px;
+        padding-bottom: 4px;
+    }
+    i{
+        font-size: 16px;
+        color: #de4644;
+    }
+    span{
+        font-size: 16px;
+        border-left: 2px solid black;
+        padding-left: 6px;
+    }
+    form{
+        label{
+            display: inline;
+            &:first-child{
+                font-size: 14px;
+                text-transform: capitalize;
+                span{
+                    border: 0px;
+                    padding-left: 15px;
+                }
+            }
+        }
+        input{
+            margin:0px 5px;
+        }
+    }
+}
+.pro_price{
+    font-size: 16px;
+    padding-top: 4px;
+    padding-bottom: 20px;
+}
+.pro_d{
+    font-size: 14px;
+    color: #444444;
+    padding-bottom: 56px;
+}
+.pro_quan{
+    p{
+        font-size: 14px;
+        text-transform: capitalize;
+        margin-right: -5px;
+        span{
+            border: 0px;
+            color: chocolate !important;
+            i{
+                color: chocolate;
+                padding-right: 5px;
+            }
+        }
+    }
+}
+.p_color{
+    .dott{
+        color: black !important;
+    }
+}
+.dott{
+    margin-right: -5px;
+}
+.prod_bttn{
+    padding-top: 10px;
+    padding-bottom: 60px;
+    button{
+        height: 50px;
+        width: 50px;
+        background-color: white;
+        border: 0.5px solid black;
+        margin-right: 4px;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+        &:hover{
+            background-color: #de4644;
+            border: 0.5px solid transparent;
+            i{
+                color: white;
+            }
+        }
+        i{
+            font-size: 26px;
+            color: #444444;
+        }
+    }
+}
+.prod_code{
+    padding-bottom: 60px;
+    p{
+        font-size: 16px;
+        margin-bottom: -4px;
+        text-transform: capitalize;
+        &:first-child{
+            .dott{
+                padding-left: 33px;
+            }
+        }
+        &:last-child{
+            .dott{
+                padding-left: 39px;
+            }
+        }
+        span{
+            border: 0px;
+        }
+        .dott {
+            padding-right: 5px;
+        }
+    }
+}
+.prod_share{
+    h4{
+        font-size: 16px;
+        text-transform: capitalize;
+        padding-bottom: 20px;
+    }
+}
+.pro_share_link{
+    width: 370px;
+    li{
+        a{
+            color: black;
+            font-size: 20px;
+            height: 40px;
+            width: 40px;
+            line-height: 36px;
+            text-align: center;
+            border: 1px solid black;
+            border-radius: 50%;
+            margin-right: 10px;
+            transition: 0.5s;
+            transition: 0.5s;
+            -webkit-transition: 0.5s;
+            -moz-transition: 0.5s;
+            -ms-transition: 0.5s;
+            -o-transition: 0.5s;
+            i{
+                color: black;
+                font-size: 18px;
+                transition: 0.5s;
+                -webkit-transition: 0.5s;
+                -moz-transition: 0.5s;
+                -ms-transition: 0.5s;
+                -o-transition: 0.5s;
+            }
+            &:hover{
+                background-color: #de4644;
+                color: white;
+                border: 1px solid transparent;
+                i{
+                    color: white;
+                }
+            }
+        }
+    }
+}
+.detail_review{
+    padding-top: 72px;
+}
+.review{
+    &:last-child{
+        .nav-link{
+            border-right: 3px solid transparent;
+            padding-left: 27px;
+        }
+    }
+    .nav-link{
+        color: black;
+        padding: 0px;
+        font-size: 20px;
+        text-transform: capitalize;
+        padding-right: 27px;
+        line-height: 20px;
+        border-right: 3px solid black;
+        border-radius: 0px;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        -ms-border-radius: 0px;
+        -o-border-radius: 0px;
+}
+    .nav-link.active{
+        background-color: white;
+        color: #de4644;
+    }
+}
+.tab-pane{
+    p{
+        font-size: 14px;
+        &:first-child{
+            padding-bottom: 34px;
+        }
+    }
+}

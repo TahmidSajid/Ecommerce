@@ -1,0 +1,48 @@
+header{
+    background-color: #444444;
+    color: white;
+}
+.btn{
+    padding: 0px !important;
+    font-size: 13px;
+    color: white;
+}
+.head_first{
+    li{
+        padding: 19px 21px;
+        border-right: 1px solid white;
+        &:first-child{
+            padding-left: 0px;
+        }
+        &:last-child{
+            border-right: 1px solid transparent;
+        }
+    }
+}
+.dropdown-menu{
+    li{
+        &:first-child{
+            padding-left: 21px !important;
+        }
+    }
+}
+.head_last{
+    li{
+        padding: 19px 21px;
+        border-right: 1px solid white;
+        &:last-child{
+            border-right: 1px solid transparent;
+            padding-right: 0px;
+        }
+    }
+}
+.dropdown-menu{
+    --bs-dropdown-min-width: 49px;
+    li{
+        display: block;
+        a{
+            padding: 0px;
+            text-align: center;
+        }
+    }
+}
